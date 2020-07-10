@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+	<group ns="instance1">
+		<node name="population_node" pkg="ros_tutorials" type="population_node" output="screen" args="$(find ros_tutorials)/resource/india_population.txt"/>
+		<node name="client_node" pkg="ros_tutorials" type="client_node" output="screen"/>
+	</group>
+
+
+</launch>

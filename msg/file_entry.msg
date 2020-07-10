@@ -1,0 +1,2 @@
+string state_name
+float32 population
